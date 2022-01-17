@@ -1,0 +1,187 @@
+/* HEADER */
+.header-top {
+    background-color: #000;
+}
+
+.header-top .sony-logo {
+    height: 15px;
+}
+/* FINE HEADER */
+
+
+/* UTILITA' */
+.ms_mb_35 {
+    margin-bottom: 35px;
+}
+
+.ms_mb_30 {
+    margin-bottom: 30px;
+}
+
+.ms_mb_70 {
+    margin-bottom: 70px;
+}
+
+.ms_mb_60 {
+    margin-bottom: 60px;
+}
+
+.ms_mt_100 {
+    margin-top: 100px;
+}
+
+.ms_mt_70 {
+    margin-top: 70px;
+}
+
+.ms_mt_60 {
+    margin-top: 60px;
+}
+
+.ms_mt_30 {
+    margin-top: 30px;
+}
+
+.ms_pt_70 {
+    padding-top: 70px;
+}
+
+.ms_pb_100 {
+    padding-bottom: 100px;
+}
+/* FINE UTILITA' */
+
+
+/* COMUNI */
+h1 {
+    font-size: 2.5rem;
+}
+
+.ms_btn_black {
+    color: #fff;
+    background-color: rgb(54, 54, 54);
+    border-color: rgb(54, 54, 54);
+}
+
+.ms_btn_red {
+    color: #fff;
+    background-color: rgb(205, 61, 16);
+    border-color: rgb(205, 61, 16);
+}
+
+.ms_btn_blue {
+    color: #fff;
+    background-color: rgb(44, 100, 230);
+    border-color: rgb(44, 100, 230);
+}
+
+.ms_btn_grey {
+    background-color: rgb(217, 218, 220);
+    border-color: rgb(217, 218, 220);
+}
+
+.ms_btn_white {
+    color: #000;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.ms_rounded_15 {
+    border-radius: 15px;
+}
+
+.ms_fs_18 {
+    font-size: 18px;
+}
+/* FINE COMUNI */
+
+
+
+/* HEADER */
+.header-bottom .navbar .lens {
+    width: 25px;
+    height: auto;
+}
+/* FINE HEADER */
+
+
+
+/* JUMBOTRON */
+.jumbotron .container {
+    height: 600px;
+}
+
+.jumbotron {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#returnal {
+    background-image: url('img/jumbo-bg.png');
+}
+
+#it-takes-two {
+    background-image: url('img/it-takes-two-hero-banner-desktop.jpg');
+}
+/* FINE JUMBOTRON */
+
+
+
+/* NEW-RELEASES */
+#new-releases {
+    background-color: rgb(31, 31, 31);
+}
+/* FINE NEW-RELEASES */
+
+
+
+/* PLAY-PLUS */
+#play-plus {
+    background-color: rgb(192, 188, 187);
+}
+/* FINE PLAY-PLUS */
+
+
+
+/* PLAY-NOW */
+#play-now {
+    background-color: rgb(22, 28, 59);
+}
+/* FINE PLAY-NOW */
+
+
+
+/* FOOTER */
+.footer-menu {
+    background-color: rgb(1, 67, 156);
+}
+
+.footer-menu .ps-logo {
+    width: 100px;
+    height: auto;
+}
+
+.footer-menu .lang-globe {
+    width: 20px;
+    height: auto;
+}
+
+.footer-menu .sie-logo {
+    width: 130px;
+    height: auto;
+}
+
+.footer-menu ul {
+    list-style-type: none;
+}
+
+.footer-menu ul li {
+    margin-bottom: 7px;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: inherit;
+}
+/* FINE FOOTER */
