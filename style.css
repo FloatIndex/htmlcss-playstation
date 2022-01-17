@@ -57,41 +57,65 @@ h1 {
     font-size: 2.5rem;
 }
 
-.ms_btn_black {
-    color: #fff;
-    background-color: rgb(54, 54, 54);
-    border-color: rgb(54, 54, 54);
+.ms_fs_18 {
+    font-size: 18px;
 }
 
-.ms_btn_red {
-    color: #fff;
-    background-color: rgb(205, 61, 16);
-    border-color: rgb(205, 61, 16);
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
-.ms_btn_blue {
-    color: #fff;
-    background-color: rgb(44, 100, 230);
-    border-color: rgb(44, 100, 230);
-}
-
-.ms_btn_grey {
-    background-color: rgb(217, 218, 220);
-    border-color: rgb(217, 218, 220);
-}
-
-.ms_btn_white {
-    color: #000;
-    background-color: #fff;
-    border-color: #fff;
+a:hover {
+    color: inherit;
 }
 
 .ms_rounded_15 {
     border-radius: 15px;
 }
 
-.ms_fs_18 {
-    font-size: 18px;
+.ms_btn_black {
+    color: #fff;
+    background-color: rgb(54, 54, 54);
+}
+
+.ms_btn_red {
+    color: #fff;
+    background-color: rgb(205, 61, 16);
+}
+
+.ms_btn_blue {
+    color: #fff;
+    background-color: rgb(44, 100, 230);
+}
+
+.ms_btn_grey {
+    background-color: rgb(217, 218, 220);
+}
+
+.ms_btn_white {
+    color: #000;
+    background-color: #fff;
+}
+
+.btn.ms_btn_black:hover,
+.btn.ms_btn_red:hover,
+.btn.ms_btn_blue:hover {
+    color: #fff;
+}
+
+.btn {
+    transition: 0.2s ease-in-out;
+    border-width: 2px;
+}
+
+.btn:hover {
+    box-shadow: 0 0 0px 2px inset #fff;
+}
+
+.btn.ms_btn_red:hover,
+.btn.ms_btn_white:hover {
+    box-shadow: 0 0 0px 2px inset #000;
 }
 /* FINE COMUNI */
 
@@ -101,6 +125,62 @@ h1 {
 .header-bottom .navbar .lens {
     width: 25px;
     height: auto;
+}
+
+.header-bottom .bg-light {
+    background-color: #fff !important;
+}
+
+.dropdown {
+    position: static;
+}
+
+.dropdown-menu {
+    width: 100%;
+    margin-top: 0 !important;
+    border: none;
+    padding-top: 15px;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: transparent;
+    color: #0d6efd;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+    transition: 0s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #0d6efd;
+}
+
+.dropdown-toggle::after {
+    border: none;
+    background-image: url(img/chevron-down-solid.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 10px;
+    vertical-align: middle;
+}
+
+.dropdown-toggle:hover::after {
+    background-image: url(img/chevron-down-solid-hover.svg);
+}
+
+.ms_list li a:hover {
+    color: #0d6efd;
+}
+
+.ms_list li::before {
+    content: "\2022"; 
+    color: #0d6efd; 
+    transform: scale(1.6);
+    display: inline-block;
+    margin-right: 0.5rem;
+    vertical-align: text-bottom;
 }
 /* FINE HEADER */
 
@@ -125,6 +205,45 @@ h1 {
     background-image: url('img/it-takes-two-hero-banner-desktop.jpg');
 }
 /* FINE JUMBOTRON */
+
+
+
+/* CONSOLE PLAY 5 */
+.bordered_thumb {
+    display: inline-block;
+    padding: 3px;
+    border: 2px solid transparent;
+    transition: 0.2s ease-in-out;
+}
+
+.bordered_thumb.active {
+    border-color: #0d6efd;
+}
+
+.bordered_thumb:hover {
+    border-color: #0d6efd;
+    transform: translateY(-10px);
+}
+
+.underlined_thumb {
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+    height: 100%;
+    opacity: 0.75;
+}
+
+.underlined_thumb img,
+.underlined_thumb p {
+    opacity: inherit;
+}
+
+.underlined_thumb.active,
+.underlined_thumb:hover {
+    border-color: #0d6efd;
+    color: inherit;
+    opacity: 1;
+}
+/* FINE CONSOLE PLAY 5 */
 
 
 
@@ -178,10 +297,5 @@ h1 {
 
 .footer-menu ul li {
     margin-bottom: 7px;
-}
-
-.footer-menu a {
-    text-decoration: none;
-    color: inherit;
 }
 /* FINE FOOTER */
